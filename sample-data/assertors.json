@@ -1,0 +1,32 @@
+[
+  {
+    "id": "leaf-as-assertor",
+    "name": "Walter Leaf",
+    "source_class": "credentialed_scholar",
+    "credentials": "Cambridge classicist; author of the standard 1900 Homer commentary."
+  },
+  {
+    "id": "gummere-as-assertor",
+    "name": "Richard M. Gummere",
+    "source_class": "credentialed_scholar",
+    "credentials": "Loeb Classical Library translator and commentator on Seneca's Epistles."
+  },
+  {
+    "id": "jowett-as-assertor",
+    "name": "Benjamin Jowett",
+    "source_class": "credentialed_scholar",
+    "credentials": "Master of Balliol; translator of the Dialogues of Plato (1871)."
+  },
+  {
+    "id": "project-curator",
+    "name": "Reference-model curator",
+    "source_class": "project_curator",
+    "credentials": "Curator of this reference repository. Project-curator claims represent paraphrased scholarly consensus, not original research."
+  },
+  {
+    "id": "ai-extraction",
+    "name": "AI extraction pipeline",
+    "source_class": "ai_extraction",
+    "credentials": "Computational extraction (e.g., LLM-based claim extraction from secondary literature); held in 'draft' until human review."
+  }
+]

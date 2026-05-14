@@ -1,0 +1,112 @@
+[
+  {
+    "id": "interp-iliad-1-heroic-paradigm",
+    "passage": "homer-iliad-1-1-7",
+    "community": "archaic_greek_heroic_audience",
+    "period": "8c–6c BCE",
+    "medium": "oral_performance",
+    "function": "heroic_paradigm",
+    "reading": "Achilles is presented as the heroic exemplar: mortal, defined by μῆνις (wrath) and τιμή (honor). His vulnerability is mortality itself, not a localized bodily flaw. The audience hears the proem as announcing the cosmic and divinely sanctioned consequences of the hero's choice.",
+    "asserted_by": "project-curator",
+    "assertion_type": "paraphrase",
+    "research_status": "draft",
+    "notes": "Broadly attested scholarly consensus."
+  },
+  {
+    "id": "interp-iliad-1-later-mythographic",
+    "passage": "homer-iliad-1-1-7",
+    "community": "later_mythographic_tradition",
+    "period": "5c BCE – Roman period",
+    "medium": "manuscript_compilation",
+    "function": "bodily_vulnerability",
+    "reading": "In the later mythographic tradition (Pseudo-Apollodorus, Statius, and others), Achilles's vulnerability is rationalized as a bodily defect — the famous heel — produced by his mother's incomplete attempt to make him immortal. The detail explains his death rather than being implicit in the Homeric text.",
+    "asserted_by": "project-curator",
+    "assertion_type": "paraphrase",
+    "research_status": "draft",
+    "notes": "The heel motif enters the tradition centuries after the Iliad and is generally treated by scholars as post-Homeric reception, not as Homeric content."
+  },
+  {
+    "id": "interp-iliad-1-modern-popular",
+    "passage": "homer-iliad-1-1-7",
+    "community": "modern_popular",
+    "period": "19c–present",
+    "medium": "popular_idiom",
+    "function": "shorthand_idiom",
+    "reading": "'Achilles heel' becomes a detached shorthand for fatal weakness, often used without reference to Homer or even to Achilles as a character. The reception flattens the difference between the Iliadic Achilles and the later mythographic Achilles into a single popular image.",
+    "asserted_by": "project-curator",
+    "assertion_type": "primary",
+    "research_status": "draft"
+  },
+  {
+    "id": "interp-seneca-47-medieval-monastic",
+    "passage": "seneca-ep-47-1-4",
+    "community": "medieval_monastic",
+    "period": "6c–12c CE",
+    "medium": "manuscript",
+    "function": "moral_instruction",
+    "reading": "Seneca's letter is read as moral instruction on the humane treatment of dependents within Christian monastic communities. The specifically Stoic philosophical framework is largely set aside; what remains is the ethical lesson on human equality before God, recoded in Christian terms.",
+    "asserted_by": "project-curator",
+    "assertion_type": "paraphrase",
+    "research_status": "draft"
+  },
+  {
+    "id": "interp-seneca-47-renaissance-humanist",
+    "passage": "seneca-ep-47-1-4",
+    "community": "renaissance_humanist",
+    "period": "14c–16c CE",
+    "medium": "print_edition",
+    "function": "rhetorical_model",
+    "reading": "Renaissance humanists recover Seneca as a model of Latin prose style and Stoic ethics. Petrarch and his successors model their own letters on Seneca's; Ep. 47 is read both for its philosophical content and for its rhetorical structure (the triple refutation, the conversational register).",
+    "asserted_by": "project-curator",
+    "assertion_type": "paraphrase",
+    "research_status": "draft"
+  },
+  {
+    "id": "interp-seneca-47-modern-stoic-revival",
+    "passage": "seneca-ep-47-1-4",
+    "community": "modern_stoic_revival",
+    "period": "2010–present",
+    "medium": "digital",
+    "function": "self_help",
+    "reading": "Recent popular Stoicism reads the letter as wisdom on human equality and compassion. The original philosophical context — engagement with Aristotelian natural slavery, the late-Stoic argumentative tradition — is often flattened in favor of a portable ethical maxim.",
+    "asserted_by": "project-curator",
+    "assertion_type": "primary",
+    "research_status": "draft"
+  },
+  {
+    "id": "interp-plato-cave-neoplatonic",
+    "passage": "plato-republic-514a-517a",
+    "community": "neoplatonic",
+    "period": "3c–6c CE",
+    "medium": "philosophical_commentary",
+    "function": "metaphysical_allegory",
+    "reading": "Plotinus and the later Neoplatonists read the cave as a metaphysical allegory of the soul's descent into the sensible world and its return to the One. The ascent figures not (or not only) education but the soul's metaphysical itinerary.",
+    "asserted_by": "project-curator",
+    "assertion_type": "paraphrase",
+    "research_status": "draft"
+  },
+  {
+    "id": "interp-plato-cave-christian-medieval",
+    "passage": "plato-republic-514a-517a",
+    "community": "christian_medieval",
+    "period": "4c–14c CE",
+    "medium": "patristic_and_scholastic_commentary",
+    "function": "soul_pilgrimage",
+    "reading": "Christian readers recode the cave as the fallen world, the prisoners as souls in sin, the ascent as conversion, and the sun as the divine. The allegory becomes a model of the soul's pilgrimage, with Augustine and later medieval authors providing the canonical Christian recodings.",
+    "asserted_by": "project-curator",
+    "assertion_type": "paraphrase",
+    "research_status": "draft"
+  },
+  {
+    "id": "interp-plato-cave-modern-epistemology",
+    "passage": "plato-republic-514a-517a",
+    "community": "modern_epistemology",
+    "period": "19c–present",
+    "medium": "academic",
+    "function": "theory_of_knowledge",
+    "reading": "Modern philosophical reception treats the cave as a theory of knowledge: the prisoners' shadows as everyday opinion, the released prisoner's progress as the disciplined acquisition of knowledge, the sun as the form of the Good or, in some readings, as a principle of intelligibility. The metaphysical and religious recodings are bracketed.",
+    "asserted_by": "project-curator",
+    "assertion_type": "paraphrase",
+    "research_status": "draft"
+  }
+]

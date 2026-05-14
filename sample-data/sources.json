@@ -1,0 +1,35 @@
+[
+  {
+    "id": "leaf-1900",
+    "author": "Walter Leaf",
+    "title": "The Iliad, Edited with Apparatus Criticus, Prolegomena, Notes, and Appendices (2nd ed.)",
+    "year": 1900,
+    "publisher": "Macmillan",
+    "source_type": "commentary",
+    "consensus": "standard",
+    "public_domain": true,
+    "url": "https://archive.org/details/iliadhom01home"
+  },
+  {
+    "id": "gummere-1917",
+    "author": "Richard M. Gummere",
+    "title": "Seneca: Ad Lucilium Epistulae Morales (Loeb Classical Library, vol. 1)",
+    "year": 1917,
+    "publisher": "Harvard University Press / William Heinemann",
+    "source_type": "translation",
+    "consensus": "standard",
+    "public_domain": true,
+    "url": "https://archive.org/details/adluciliumepistu01seneuoft"
+  },
+  {
+    "id": "jowett-1871",
+    "author": "Benjamin Jowett",
+    "title": "The Dialogues of Plato, Translated into English with Analyses and Introductions",
+    "year": 1871,
+    "publisher": "Oxford University Press",
+    "source_type": "translation",
+    "consensus": "standard",
+    "public_domain": true,
+    "url": "https://www.gutenberg.org/ebooks/1497"
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/canonical-knowledge-reference-model/schema.json",
+  "title": "Canonical Knowledge Reference Model Schema",
+  "description": "Schema for the reference model. See schema.md for narrative.",
+  "type": "object",
+  "$defs": {
+    "Passage": {
+      "type": "object",
+      "required": ["id", "work", "reference", "label", "original_text"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "work": {
+          "type": "object",
+          "required": ["author", "title", "language"],
+          "properties": {
+            "author": {"type": "string"},
+            "title": {"type": "string"},
+            "language": {"type": "string"}
+          }
+        },
+        "reference": {"type": "string"},
+        "label": {"type": "string"},
+        "original_text": {"type": "string"},
+        "translation": {"type": "string"},
+        "translation_attribution": {"type": "string"},
+        "source_url": {"type": "string", "format": "uri"},
+        "key_terms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["form", "lemma"],
+            "properties": {
+              "form": {"type": "string"},
+              "lemma": {"type": "string"},
+              "parse": {"type": "string"},
+              "gloss": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "Source": {
+      "type": "object",
+      "required": ["id", "author", "title", "year", "source_type"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "author": {"type": "string"},
+        "title": {"type": "string"},
+        "year": {"type": "integer"},
+        "publisher": {"type": "string"},
+        "source_type": {
+          "type": "string",
+          "enum": ["commentary", "monograph", "handbook", "translation", "critical_edition", "anthology"]
+        },
+        "consensus": {
+          "type": "string",
+          "enum": ["standard", "influential", "contested", "fringe"]
+        },
+        "public_domain": {"type": "boolean"},
+        "url": {"type": "string", "format": "uri"}
+      }
+    },
+    "Claim": {
+      "type": "object",
+      "required": ["id", "passage", "statement", "assertor", "assertion_type", "research_status"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "passage": {"type": "string"},
+        "statement": {"type": "string"},
+        "assertor": {"type": "string"},
+        "assertion_type": {
+          "type": "string",
+          "enum": ["primary", "reported"]
+        },
+        "research_status": {
+          "type": "string",
+          "enum": ["stub", "draft", "reviewed", "verified"]
+        },
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "source": {"type": "string"},
+        "source_location": {"type": "string"},
+        "notes": {"type": "string"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"assertion_type": {"const": "reported"}}},
+          "then": {"required": ["source"]}
+        }
+      ]
+    },
+    "Interpretation": {
+      "type": "object",
+      "required": ["id", "passage", "community", "period", "function", "reading", "asserted_by", "assertion_type", "research_status"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "passage": {"type": "string"},
+        "community": {"type": "string"},
+        "period": {"type": "string"},
+        "medium": {"type": "string"},
+        "function": {"type": "string"},
+        "reading": {"type": "string"},
+        "asserted_by": {"type": "string"},
+        "assertion_type": {
+          "type": "string",
+          "enum": ["primary", "reported", "paraphrase"]
+        },
+        "research_status": {
+          "type": "string",
+          "enum": ["stub", "draft", "reviewed", "verified"]
+        },
+        "source": {"type": "string"},
+        "notes": {"type": "string"}
+      }
+    },
+    "Assertor": {
+      "type": "object",
+      "required": ["id", "name", "source_class"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "name": {"type": "string"},
+        "source_class": {
+          "type": "string",
+          "enum": ["credentialed_scholar", "project_curator", "ai_extraction", "unvetted_contributor"]
+        },
+        "credentials": {"type": "string"}
+      }
+    }
+  }
+}

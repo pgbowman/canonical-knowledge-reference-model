@@ -1,0 +1,47 @@
+%% Canonical Knowledge Reference Model — architecture
+%% Four layers, plus the entity shape they operate over.
+
+graph TB
+
+  subgraph layers["Four interlocking layers"]
+    direction TB
+    L1["1. Schema layer<br/><i>Passage / Source / Claim /<br/>Interpretation / Assertor</i>"]
+    L2["2. Provenance layer<br/><i>asserted_by, assertion_type,<br/>research_status, source</i>"]
+    L3["3. Retrieval layer<br/><i>Question → cited claims +<br/>interpretations by community</i>"]
+    L4["4. Evaluation layer<br/><i>Rubric: provenance, source class,<br/>ambiguity, hard stops</i>"]
+    L1 --> L2 --> L3 --> L4
+  end
+
+  subgraph entities["Entity shape"]
+    direction LR
+    P[Passage]
+    S[Source]
+    C[Claim]
+    I[Interpretation]
+    A[Assertor]
+    C -->|ABOUT| P
+    C -->|SOURCED_BY| S
+    C -->|ASSERTED_BY| A
+    I -->|OF| P
+    I -->|SOURCED_BY| S
+    I -->|ASSERTED_BY| A
+  end
+
+  subgraph flow["End-to-end flow"]
+    direction TB
+    Q[Question]
+    R[Retrieved claims + interpretations<br/>with provenance trail]
+    E[Evaluation pass]
+    O[Final output:<br/>sourced answer + ambiguity map +<br/>confidence + hard-stop notes]
+    Q --> R --> E --> O
+  end
+
+  layers --> entities
+  layers --> flow
+
+  classDef layer fill:#f5f5f5,stroke:#888,stroke-width:1.5px,color:#111;
+  classDef entity fill:#fff,stroke:#444,stroke-width:1px,color:#111;
+  classDef flow fill:#eef5fa,stroke:#2c6e8c,stroke-width:1.5px,color:#102a43;
+  class L1,L2,L3,L4 layer;
+  class P,S,C,I,A entity;
+  class Q,R,E,O flow;

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "claim-iliad-1-menis",
+    "passage": "homer-iliad-1-1-7",
+    "statement": "The proem announces μῆνις (wrath) as the principal subject of the poem and as the cause of countless deaths among the Achaeans.",
+    "assertor": "leaf-as-assertor",
+    "assertion_type": "reported",
+    "research_status": "reviewed",
+    "confidence": 0.98,
+    "source": "leaf-1900",
+    "source_location": "ad loc. 1.1",
+    "notes": "Standard reading; the opening word μῆνιν is taken as programmatic."
+  },
+  {
+    "id": "claim-iliad-1-no-heel",
+    "passage": "homer-iliad-1-1-7",
+    "statement": "The Iliad's text does not mention Achilles's heel or any localized bodily vulnerability; the invulnerability-except-the-heel motif belongs to the later mythographic tradition (Pseudo-Apollodorus, Statius), not to Homer.",
+    "assertor": "project-curator",
+    "assertion_type": "primary",
+    "research_status": "draft",
+    "confidence": 0.95,
+    "notes": "Negative claim about Homeric content; should be verified against a complete text search and/or comprehensive reading of the Iliad. The mythographic sources (Pseudo-Apollodorus, Bibliotheca 3.13.6; Statius, Achilleid 1.269–270) are commonly cited as entry points for the heel motif."
+  },
+  {
+    "id": "claim-seneca-47-rejection",
+    "passage": "seneca-ep-47-1-4",
+    "statement": "Seneca rejects the Aristotelian view of natural slavery, treating slavery as a condition of fortuna rather than natura. The triple refutation 'servi sunt? immo homines / contubernales / humiles amici' is the rhetorical heart of the rejection.",
+    "assertor": "gummere-as-assertor",
+    "assertion_type": "reported",
+    "research_status": "reviewed",
+    "confidence": 0.93,
+    "source": "gummere-1917",
+    "source_location": "introductory note to Epistle 47",
+    "notes": "Gummere's Loeb introduction frames Ep. 47 as Seneca's direct engagement with the philosophical tradition on slavery."
+  },
+  {
+    "id": "claim-seneca-47-not-biographical",
+    "passage": "seneca-ep-47-1-4",
+    "statement": "Seneca's self-presentation in this letter — implying that he himself treats his slaves well — is literary self-fashioning, not autobiographical evidence. The letters are published philosophical correspondence, not private documents.",
+    "assertor": "project-curator",
+    "assertion_type": "primary",
+    "research_status": "draft",
+    "confidence": 0.9,
+    "notes": "A hard-stop case: the source type (philosophical epistle) does not permit inference about the author's actual biographical practice."
+  },
+  {
+    "id": "claim-plato-cave-allegory",
+    "passage": "plato-republic-514a-517a",
+    "statement": "The cave allegory uses the figure of prisoners watching shadows to represent the soul's progress from sensory perception to intellectual understanding, with the ascent out of the cave figuring the philosophical education that culminates in the vision of the Good.",
+    "assertor": "jowett-as-assertor",
+    "assertion_type": "reported",
+    "research_status": "reviewed",
+    "confidence": 0.95,
+    "source": "jowett-1871",
+    "source_location": "Introduction to Book VII",
+    "notes": "Jowett's introduction frames the cave as Plato's most concentrated image of the educational ascent toward the Good."
+  }
+]

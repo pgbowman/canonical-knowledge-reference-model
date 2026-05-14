@@ -1,0 +1,62 @@
+[
+  {
+    "id": "homer-iliad-1-1-7",
+    "work": {
+      "author": "Homer",
+      "title": "Iliad",
+      "language": "Ancient Greek"
+    },
+    "reference": "1.1-7",
+    "label": "Iliad 1.1–7 (the proem)",
+    "original_text": "μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος / οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε, / πολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν / ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν / οἰωνοῖσί τε πᾶσι, Διὸς δ᾽ ἐτελείετο βουλή, / ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε / Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.",
+    "translation": "The wrath sing, goddess, of Peleus' son, Achilles, that destructive wrath which brought countless woes upon the Achaeans, and sent forth to Hades many valiant souls of heroes, and made them themselves spoil for dogs and every bird; thus the plan of Zeus came to fulfillment, from the time when first they parted in strife Atreus' son, king of men, and brilliant Achilles.",
+    "translation_attribution": "A.T. Murray (1924, public domain)",
+    "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0133",
+    "key_terms": [
+      {"form": "μῆνιν", "lemma": "μῆνις", "parse": "acc.sg", "gloss": "wrath (cosmic, divinely sanctioned)"},
+      {"form": "Ἀχιλῆος", "lemma": "Ἀχιλλεύς", "parse": "gen.sg", "gloss": "Achilles"},
+      {"form": "οὐλομένην", "lemma": "ὄλλυμι", "parse": "acc.sg.f.pres.mid.ptcp", "gloss": "destructive, accursed"},
+      {"form": "ψυχάς", "lemma": "ψυχή", "parse": "acc.pl", "gloss": "souls, shades"}
+    ]
+  },
+  {
+    "id": "seneca-ep-47-1-4",
+    "work": {
+      "author": "Seneca",
+      "title": "Epistulae Morales ad Lucilium",
+      "language": "Latin"
+    },
+    "reference": "47.1-4",
+    "label": "Seneca, Epistle 47.1–4 (on master and slave)",
+    "original_text": "Libenter ex iis qui a te veniunt cognovi familiariter te cum servis tuis vivere: hoc prudentiam tuam, hoc eruditionem decet. 'Servi sunt.' Immo homines. 'Servi sunt.' Immo contubernales. 'Servi sunt.' Immo humiles amici.",
+    "translation": "I am glad to learn from those who come from you that you live on familiar terms with your slaves. This befits your good sense and your education. 'They are slaves.' No, they are human beings. 'They are slaves.' No, they are tent-mates. 'They are slaves.' No, they are humble friends.",
+    "translation_attribution": "Richard M. Gummere (1917, public domain, Loeb Classical Library)",
+    "source_url": "https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_47",
+    "key_terms": [
+      {"form": "servi", "lemma": "servus", "parse": "nom.pl", "gloss": "slaves"},
+      {"form": "homines", "lemma": "homo", "parse": "nom.pl", "gloss": "human beings"},
+      {"form": "contubernales", "lemma": "contubernalis", "parse": "nom.pl", "gloss": "tent-mates, intimate companions"},
+      {"form": "amici", "lemma": "amicus", "parse": "nom.pl", "gloss": "friends"}
+    ]
+  },
+  {
+    "id": "plato-republic-514a-517a",
+    "work": {
+      "author": "Plato",
+      "title": "Republic",
+      "language": "Ancient Greek"
+    },
+    "reference": "514a-517a",
+    "label": "Plato, Republic 514a–517a (the cave allegory)",
+    "original_text": "μετὰ ταῦτα δή, εἶπον, ἀπείκασον τοιούτῳ πάθει τὴν ἡμετέραν φύσιν παιδείας τε πέρι καὶ ἀπαιδευσίας. ἰδὲ γὰρ ἀνθρώπους οἷον ἐν καταγείῳ οἰκήσει σπηλαιώδει...",
+    "translation": "And now, I said, let me show in a figure how far our nature is enlightened or unenlightened: Behold human beings living in an underground den...",
+    "translation_attribution": "Benjamin Jowett (1871, public domain)",
+    "source_url": "https://www.gutenberg.org/ebooks/1497",
+    "key_terms": [
+      {"form": "σπηλαιώδει", "lemma": "σπηλαιώδης", "parse": "dat.sg.f", "gloss": "cave-like"},
+      {"form": "παιδείας", "lemma": "παιδεία", "parse": "gen.sg", "gloss": "education, formation"},
+      {"form": "δεσμῶται", "lemma": "δεσμώτης", "parse": "nom.pl", "gloss": "prisoners"},
+      {"form": "σκιαί", "lemma": "σκιά", "parse": "nom.pl", "gloss": "shadows"}
+    ]
+  }
+]
